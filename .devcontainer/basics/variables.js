@@ -39,3 +39,30 @@ var stockmarket = 123456789132n;
 console.log(typeof(stockmarket));
 
 
+
+
+
+
+// for stack 
+
+let name1 = "nana";
+let name2 = name1;
+name2 = "abhiii"
+console.log(name1);
+console.log(name2);
+
+//for heap
+
+let details ={
+    name :"abhijit",
+    address:"vadgaon rasai"
+}
+
+let nameof = details.name;
+
+nameofuser = nameof;
+
+console.log(nameof);
+console.log(nameofuser);
+
+
