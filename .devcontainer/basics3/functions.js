@@ -136,14 +136,50 @@
 
 //#function scope 
 
-function one (){
-    const name = "abhijit"
-    function two (){
-        const last_name = "salunke"
-        console.log(name);
+// function one (){
+//     const name = "abhijit"
+//     function two (){
+//         const last_name = "salunke"
+//         console.log(name);
         
-    }
-    // console.log(last_name);
-    two()    
-}
-one()
+//     }
+//     // console.log(last_name);
+//     two()    
+// }
+// one()
+
+
+//////////////////// arrow function +++++++++++++++++++
+
+//in js this is used to refer a current contest 
+
+// in the arrow and the simple function the whole thing is same 
+// this in the function without accessing any value it returns  a empty set 
+
+
+// EXAMPLE OF ARRWO FUNCTION
+
+//regular 
+// const abcd = (x,y) =>{
+//        return  ` the addition of ${x},${y} is ${x+y}`
+// }
+// console.log(abcd(3,4))
+
+
+//implesit return example
+const abcd = (x,y) => ` the addition of ${x},${y} is ${x+y}` //write the whole thing in the single line is known as implisite return 
+//or we are able to write this function like 
+// const abcd = (x,y) => (` the addition of ${x},${y} is ${x+y}`)
+console.log(abcd(3,4))
+
+
+// example for object 
+const abcde = () => ({
+    nameing: "nana",
+    std : "kidhar nhi",
+    school : "ETHDC"
+})
+
+console.log(abcde());
+
+
